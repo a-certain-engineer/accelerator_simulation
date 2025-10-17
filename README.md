@@ -1,2 +1,6 @@
 # accelerator_simulation
-Python code i coded for visualizing changes to the emittance in a particle accelerator after the particle go thru different possibile  optical particle accelerator element
+I programmed this simulation to visualize how different particle accelerator elements affect particle properties, specifically tracking changes in individual particle velocities and positions while monitoring global emittance evolution across the particle ensemble. The particles are generated through a randomized procedure with initial positions and velocities following Gaussian distributions.
+
+The optical elements I implemented include drift sections, dipole magnets, quadrupole magnets, and accelerating cavities. While I plan to add sextupole and octupole elements in the future, the current selection sufficiently captures the essential dynamics of particle accelerator behavior.
+
+For visualization, I used matplotlib.pyplot to display the phase space distribution of the particle ensemble. Looking ahead, I aim to incorporate several enhancements: adding half-life randomization for muon decay simulations, and implementing particle-to-particle interactions that were initially neglected. These interactions—particularly space charge effects and electromagnetic processes from particle production—could reveal fascinating changes in the overall particle distribution and provide deeper insight into collective beam behavior.

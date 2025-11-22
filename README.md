@@ -1,5 +1,5 @@
 # accelerator_simulation
-I programmed this simulation to visualize how different particle accelerator elements affect particle properties for my exam of particle accelerator physics, specifically tracking changes in individual particle velocities and positions while monitoring global emittance evolution across the particle ensemble. The particles are generated through a randomized procedure with initial positions and velocities following Gaussian distributions.
+I programmed this simulation to visualize how different particle accelerator elements affect particle properties when preparing my exam of particle accelerator physics to better grasp some of the concepts, specifically tracking changes in individual particle velocities and positions while monitoring global emittance evolution across the particle ensemble. The particles are generated through a randomized procedure with initial positions and velocities following Gaussian distributions.
 
 The optical elements I implemented include drift sections, dipole magnets, quadrupole magnets, and accelerating cavities. While I plan to add sextupole and octupole elements in the future, the current selection sufficiently captures the essential dynamics of particle accelerator behavior.
 

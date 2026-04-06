@@ -279,3 +279,4 @@ print(f"VX: new mean = {np.mean(velocities[:, 0]):.6f}, std = {np.std(velocities
 print(f"VY: new mean = {np.mean(velocities[:, 1]):.6f}, std = {np.std(velocities[:, 1]):.6f}")
 print(f"VZ: new mean = {np.mean(velocities[:, 2]):.6f}, std = {np.std(velocities[:, 2]):.6f}")
 
+print("the change was successfull")
